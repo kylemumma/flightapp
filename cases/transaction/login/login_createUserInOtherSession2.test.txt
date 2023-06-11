@@ -1,0 +1,30 @@
+
+# Terminal 1's inputs:
+login user1 user1
+quit
+*
+
+# Scenario 1 of 2: Terminal 1 suceeds in user creation
+Logged in as user1
+Goodbye
+|
+Login failed
+Goodbye
+*
+
+##################### Concurrently executed commands: #####################
+
+# Terminal 2's inputs:
+create user1 user1 10000
+quit
+*
+
+# Scenario 1 of 2: Terminal 2 suceeds in user creation Failed to create user
+Created user user1
+Goodbye
+|
+
+# Scenario 2 of 2: Terminal 2 fails to create user as Terminal 1 already has
+Created user user1
+Goodbye
+*

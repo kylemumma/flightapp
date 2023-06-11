@@ -1,0 +1,13 @@
+# Verify we can't create a duplicate users
+
+# commands to execute:
+create bigMAN23 password123 100
+create BigMan23 password123 100
+quit
+*
+
+# expected output from those commands:
+Created user bigMAN23
+Failed to create user
+Goodbye
+*

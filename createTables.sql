@@ -1,0 +1,18 @@
+create table USERS_kmumma1 (
+  username VARCHAR(20) PRIMARY KEY,
+  password VARBINARY(256) NOT NULL,
+  balance INTEGER NOT NULL
+);
+
+create table RESERVATIONS_kmumma1 (
+  rid INTEGER PRIMARY KEY,
+  fid1 INTEGER REFERENCES FLIGHTS NOT NULL,
+  fid2 INTEGER REFERENCES FLIGHTS,
+  username VARCHAR(20) REFERENCES USERS_kmumma1 NOT NULL,
+  paid INTEGER NOT NULL
+);
+
+create table SEATS_kmumma1 (
+  fid INTEGER PRIMARY KEY REFERENCES FLIGHTS,
+  seats_reserved INTEGER NOT NULL
+);

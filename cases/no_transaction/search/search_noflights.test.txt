@@ -1,0 +1,11 @@
+# search for a place with no flights (like a place that doesnt exist)
+
+# commands:
+search "Seattle WA" "Frogville CA" 1 1 1
+quit
+*
+
+# expected command output:
+No flights match your selection
+Goodbye
+*

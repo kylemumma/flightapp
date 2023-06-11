@@ -1,0 +1,11 @@
+# commands
+create bigMAN23 password123 100
+login bIgMaN23 password123
+quit
+*
+
+# output
+Created user bigMAN23
+Logged in as bIgMaN23
+Goodbye
+*

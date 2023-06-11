@@ -1,0 +1,34 @@
+One thing that I learned while doing this assignment
+was how to use JDBC. It was interesting to learn the new
+api and get more used to looking up docs for things on my
+own.
+
+One thing that surprised me was how complex applications
+can get even for what was not too complex sql queries.
+The single hop query problem from hw3 took only about
+30 minutes to make probably. Except to implement the single
+hop indirect flights into search took much longer, and much
+more code.
+
+A question I still have is what causes the issue in a two
+tiered design where software speaks directly with the DB,
+and how is it solved in the 3 tier model where user software
+speaks to a server that speaks to the DB.
+
+no I used a different technique.
+
+One bug I had was failing the topk search test. My indirect
+flight returned had lower cost than the expected one. This 
+confused me and at first I even thought the test may be wrong.
+After looking closer at the data however I realized that I was
+including canceled flights when I shouldnt. To fix this I 
+simply modified the queries I was making to the database in
+order to exclude any canceled flights.
+
+Interact with the data to create new persistent data,
+such as searching to find possible flight itineraries,
+and then making a reservation based on them, that is saved
+and can be looked up again later.
+
+estimate of time spent on M0 + M1: 4 + 10 = 14 hours
+no collaboration.

@@ -1,0 +1,15 @@
+1.
+ - one thing I learned is how to handle transactions in sql specifically jdbc better.
+ - one thing that surprised me is how hard it is to write long sql queries in java since it all has
+ to be a continuous string, there must be a better way to do this... right?
+ - one question I still have is how transactions work on the DBMS.
+
+2. i have not found any answers on my question from m1. I think it could be a good one to ask chatgpt
+I think it would probably have a pretty good response. I could also go to hannas office hours.
+
+3. perhaps the CEO's manager is themselves, as without proper self-management the company wouldnt 
+do so great. nonetheless I think either approach would work. maybe id say regularmanager and ceo are
+both managers, but only regular managers have their own managers. i prefer this as i feel the field 
+shouldnt be nullable just for 1 special case.
+
+4. hours about 10-14, all valuable, no collaboration
